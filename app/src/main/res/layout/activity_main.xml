@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBack"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/logoo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="5sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold |italic"
+
+        android:text="@string/newsMandu"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnKantipur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="Kantipur"
+                android:text="@string/ekantipur" />
+
+            <Button
+                android:id="@+id/btnHimalayan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="Himlayan"
+                android:text="@string/the_himalayan_times" />
+
+            <Button
+                android:id="@+id/btnGrkPatra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="Gorkha"
+                android:text="@string/the_gorkhapatra_daily" />
+
+            <Button
+                android:id="@+id/btnOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="onlineK"
+                android:text="@string/online_khabar" />
+
+            <Button
+                android:id="@+id/btnBlast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="blast"
+                android:text="@string/the_blast_times" />
+
+            <Button
+                android:id="@+id/btnNaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="naya"
+                android:text="@string/naya_patrika" />
+
+            <Button
+                android:id="@+id/btnNepaliP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="Nepse"
+                android:text="@string/nepali_paisa_live_nepse_trading" />
+
+            <Button
+                android:id="@+id/btnAujar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="aujar"
+                android:text="@string/aujar_news" />
+
+            <Button
+                android:onClick="bbcN"
+                android:id="@+id/btnBBC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonbackground"
+                android:text="@string/bbc_nepali" />
+
+            <Button
+                android:onClick="Nagarik"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnNagarik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackground"
+                android:text="@string/nagarik_news" />
+
+            <Button
+                android:onClick="clickDharan"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnClickDharan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/click_dharan" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

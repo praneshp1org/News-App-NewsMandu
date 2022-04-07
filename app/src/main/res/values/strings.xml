@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NewsMandu</string>
+    <string name="newsMandu">NewsMandu - Nepali News Portal</string>
+    <string name="ekantipur">eKantipur</string>
+    <string name="gorkhapatra">GorkhaPatra</string>
+    <string name="kathmandu_post">Kathmandu Post</string>
+    <string name="annapurna_post">Annapurna Post</string>
+    <string name="the_himalayan_times">The Himalayan Times</string>
+    <string name="the_gorkhapatra_daily">The GorkhaPatra Daily</string>
+    <string name="ratopati">Ratopati</string>
+    <string name="online_khabar">Online Khabar</string>
+    <string name="the_blast_times">The Blast Times</string>
+    <string name="naya_patrika">Naya Patrika</string>
+    <string name="pranesh_tech_apps">Pranesh Tech Apps</string>
+    <string name="nepali_paisa_live_nepse_trading">Nepali Paisa- Live NEPSE Trading</string>
+    <string name="aujar_news">Aujar News</string>
+    <string name="bbc_nepali">BBC Nepali</string>
+    <string name="nagarik_news">Nagarik News</string>
+    <string name="click_dharan">Click Dharan</string>
+
+
+</resources>
